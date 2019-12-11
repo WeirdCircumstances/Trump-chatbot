@@ -23,6 +23,8 @@ isPlayingWealthGame = False
 
 warnings.filterwarnings('ignore')
 
+points = 0
+
 # Begrüßungen
 GREETING_INPUTS = ("hello", "hi", "good afternoon", "greetings", "servus")
 GREETING_RESPONSES = ["Make America Great Again!!!", "Part of my beauty is that I am very rich!", "hi", "hey", "what's up", "Good afternoon", "hello", "It's nice to meet you", "Make America Great Again!!!", "Part of my beauty is that I am very rich!"]
@@ -152,7 +154,7 @@ Ausgabe
 flag=True
 clear = lambda: os.system('clear')
 clear()
-print(colored("🇺🇸 TRUMP: ", 'red', attrs=['bold']) + colored("\tHello, my name is TRUMP. I'm an artificial Stupidity. Just ask me and I will give you a trumpy response!\n\tTo quit just type 'Bye'.", 'cyan'))
+print(colored("🇺🇸 TRUMP: ", 'red', attrs=['bold']) + colored("Hello, my name is TRUMP. I'm an artificial Stupidity. Just ask me and I will give you a trumpy response!\nTo quit just type 'Bye'.", 'cyan'))
 while(flag==True):
     while isPlayingPrimesGame == True:
         #number = random.randint(100, 1000) * 2 + 1
